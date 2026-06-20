@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DIFFIDIA — Media Forensics (TAID.LU mock)</title>
+<meta name="description" content="DIFFIDIA — interactive mock of a deepfake media-detection console proposed for ALIA (TAID.LU).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Inter,system-ui,sans-serif;color:#121A26;background:#F2F6FD;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:40px 20px}
+  .wrap{max-width:760px;width:100%}
+  .brand{display:flex;align-items:center;gap:16px;margin-bottom:34px}
+  .logo{width:52px;height:52px;border-radius:13px;background:#1E47C2;display:flex;align-items:center;justify-content:center;flex:none}
+  .logo i{width:19px;height:19px;background:#fff;transform:rotate(45deg);border-radius:3px;display:block}
+  .name{font-weight:800;font-size:26px;letter-spacing:-0.01em}
+  .sub{font-size:14px;color:#9AA8BC;font-weight:500;margin-top:3px}
+  .eyebrow{font:600 13px Inter,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#1E47C2;margin-bottom:14px}
+  h1{font-size:46px;line-height:1.06;font-weight:800;letter-spacing:-0.03em;margin-bottom:18px}
+  p.lead{font-size:18px;line-height:1.55;color:#4A586B;max-width:620px;margin-bottom:34px}
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:620px){.cards{grid-template-columns:1fr}h1{font-size:36px}}
+  .card{display:flex;flex-direction:column;gap:8px;background:#fff;border:1px solid #E2E8F0;border-radius:16px;padding:22px 22px 20px;text-decoration:none;color:inherit;transition:box-shadow .15s,border-color .15s,transform .15s}
+  .card:hover{border-color:#CFD8E3;box-shadow:0 12px 30px -12px rgba(18,26,38,.22);transform:translateY(-2px)}
+  .card .k{font:600 11px Inter,sans-serif;letter-spacing:.07em;text-transform:uppercase;color:#9AA8BC}
+  .card .t{font-size:18px;font-weight:700;color:#1F2A38}
+  .card .d{font-size:13.5px;color:#677589;line-height:1.5}
+  .card .go{margin-top:6px;font:600 13px Inter,sans-serif;color:#1E47C2;display:flex;align-items:center;gap:6px}
+  .foot{margin-top:34px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .chip{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border:1px solid #E6EBF1;background:#fff;border-radius:99px;font:500 13px Inter,sans-serif;color:#4A586B}
+  .chip i{width:8px;height:8px;border-radius:50%;background:#1E47C2;display:block}
+  .mono{font-family:'JetBrains Mono',monospace;font-size:12px;color:#9AA8BC}
+  .note{margin-top:26px;font-size:12.5px;color:#9AA8BC;line-height:1.55;max-width:620px}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo"><i></i></div>
+      <div><div class="name">DIFFIDIA</div><div class="sub">Media Forensics · ALIA</div></div>
+    </div>
+
+    <div class="eyebrow">Sovereign deepfake analysis · TAID.LU</div>
+    <h1>Know what&rsquo;s real.</h1>
+    <p class="lead">Interactive mock of a forensic deepfake-detection console, aligned with the RIA art.&nbsp;50(4) transparency mission supervised by ALIA. Explore the two prototypes below.</p>
+
+    <div class="cards">
+      <a class="card" href="console.html">
+        <span class="k">Prototype</span>
+        <span class="t">Detection console</span>
+        <span class="d">Full clickable console: overview, analyses, motivated report, cases, pipeline builder.</span>
+        <span class="go">Open console →</span>
+      </a>
+      <a class="card" href="slide.html">
+        <span class="k">Pitch</span>
+        <span class="t">Product slide</span>
+        <span class="d">One-screen presentation slide of the DIFFIDIA solution.</span>
+        <span class="go">Open slide →</span>
+      </a>
+    </div>
+
+    <div class="foot">
+      <span class="chip"><i></i>ALIA · Luxembourg</span>
+      <span class="mono">ensemble v4.2</span>
+    </div>
+
+    <p class="note">Prototype / mock for demonstration purposes — not a production system. Detection results shown are illustrative.</p>
+  </div>
+</body>
+</html>
